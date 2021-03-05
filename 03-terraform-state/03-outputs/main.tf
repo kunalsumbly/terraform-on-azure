@@ -18,7 +18,7 @@ data "terraform_remote_state" "terraformdemo" {
   backend = "azurerm"
   config = {
     resource_group_name  = "rg-terraformstate"
-    storage_account_name = "terrastatestorage2188"
+    storage_account_name = "terrastatestorage4702"
     container_name       = "terraformdemo"
     key                  = "dev.terraform.tfstate"
   }
